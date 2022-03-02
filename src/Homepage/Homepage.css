@@ -1,0 +1,53 @@
+.form-control {
+        border: #80dfff 1px solid !important;
+}
+
+.card {
+        box-shadow: none;
+}
+
+/* Navbar */
+.brand-text {
+        color: black;
+        font-weight: 800;
+}
+
+.nav-link p {
+        color: rgb(10, 10, 10);
+}
+
+.main-sidebar {
+        background-color: #80dfff;
+}
+
+.nav-icon {
+        color: rgb(0, 0, 0);
+}
+
+.d-block {
+        color: rgb(5, 5, 5);
+}
+
+
+/* Header */
+.main-header {
+        background-color: #80dfff;
+}
+
+.nav-link {
+        color: black;
+}
+
+/* Footer */
+footer {
+        background-color: #8edef8;
+}
+
+.text-footer p {
+        color: black;
+        font-weight: 400px;
+}
+
+.content-wrapper {
+        padding-bottom: 30px;
+}

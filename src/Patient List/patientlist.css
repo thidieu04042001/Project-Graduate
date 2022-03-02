@@ -1,0 +1,52 @@
+/* Patient list */
+.my__patients {
+        padding: 100px 0;
+        margin: auto;
+        align-items: center;
+}
+
+.my__patient--list {
+        display: flex;
+}
+
+.patient__list {
+        margin-top: 30px;
+        border: 1 solid darkgray;
+        border-radius: 5px;
+        background-color: white;
+}
+
+.patient {
+        margin: auto;
+        align-items: center;
+        text-align: center;
+}
+
+.img_patient {
+        margin: 20px 50px;
+        max-width: 120px;
+        align-items: center;
+}
+
+.name__patient {
+        font-size: x-large;
+        color: #039BE5;
+}
+
+.id__patient {
+        font-size: small;
+        color: #555;
+}
+
+
+.patient__content {
+        padding: 0 30px 50px 30px;
+}
+
+.phone, .age, .address {
+        margin-top: 15px;
+}
+
+.fas {
+        margin-right: 10px;
+}

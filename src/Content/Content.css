@@ -1,0 +1,52 @@
+/* Review */
+.review-body {
+
+        height: 290px;
+        overflow-x: hidden;
+        overflow-y: auto;
+}
+
+/* NewNumber */
+.fa {
+        color: white;
+}
+
+/* Appoitit */
+.patient-table {
+        text-align: center;
+}
+
+.patient-appoit {
+        display: flex;
+
+}
+
+.patient-appoit img {
+        height: 60px;
+        border: 1px #d4d4d4 solid;
+        border-radius: 50%;
+        -moz-border-radius: 50%;
+        -webkit-border-radius: 50%;
+}
+
+.patient-appoit p {
+        font-weight: 500;
+        padding-left: 10px;
+
+}
+
+.btn-Appoit {
+        display: flex;
+        margin-left: 10px;
+}
+
+.btn-Appoit button {
+
+        margin: 8px;
+}
+
+
+
+.tabpatient:active {
+        background-color: #80dfff;
+}

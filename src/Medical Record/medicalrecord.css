@@ -1,0 +1,113 @@
+/* Medical record */
+.title__head--content {
+        display: flex;
+        margin-bottom: 30px;
+        justify-content: space-between !important;
+}
+
+.medical__record {
+        width: 400px;
+        color: #03A9F4;
+        font-weight: bolder;
+        font-size: xx-large;
+}
+
+.btn__medical--record {
+        width: 200px;
+}
+
+.add__medical {
+        padding: 10px 20px;
+        border-radius: 30px;
+        border: none;
+        color: #fff;
+        background-color: #03A9F4;
+        font-weight: bold;
+        text-decoration: none;
+
+}
+
+.table__background {
+        background-color: white;
+}
+
+.table__title--head {
+        color: white;
+        background-color: #03A9F4;
+
+}
+
+.title__head {
+        padding-top: 20px !important;
+        padding-bottom: 20px !important;
+}
+
+.content__medical {
+        padding-top: 15px !important;
+        padding-bottom: 15px !important;
+}
+
+.edit_icon {
+        margin-right: 30px;
+        color: #03A9F4;
+        font-size: x-large;
+}
+
+.remove_icon {
+        color: rgb(255, 60, 0);
+        font-size: x-large;
+}
+
+.img_medical {
+        max-width: 40px;
+}
+
+/* Add Medical record */
+.add_medicalRecord {
+        margin: 70px 0;
+}
+
+.add_medical--record {
+        max-width: 700px;
+        padding: 20px 30px 50px 30px;
+        margin: auto;
+        border-radius: 5px;
+        background-color: #fff;
+}
+
+.title_addMD {
+        margin-bottom: 40px;
+        color: #03A9F4;
+        font-weight: bold;
+        text-align: center;
+}
+
+.form-row {
+        display: flex;
+        justify-content: space-between;
+}
+
+.form-group {
+        margin-top: 15px;
+}
+
+.patient_id, .name {
+        max-width: 315px;
+}
+
+.date {
+        max-width: 300px;
+}
+
+.order_by, .age {
+        max-width: 250px;
+}
+
+.btn_add--medicalrecord {
+        margin-top: 30px;
+        padding: 5px 20px;
+        border: none;
+        border-radius: 5px;
+        color: #fff;
+        background-color: #03A9F4;
+}

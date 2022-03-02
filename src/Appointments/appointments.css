@@ -1,0 +1,51 @@
+.appoi img {
+        margin-top: 10px;
+        margin-left: 10px;
+        height: 180px;
+        width: 150px;
+        border-radius: 10px;
+
+
+}
+
+
+
+.Appoit {
+        display: flex;
+        padding-top: 65px;
+        margin-right: 10px;
+
+}
+
+.Appoit button {
+
+        margin: 8px;
+        border: 1px solid rgb(177, 174, 174);
+
+}
+
+
+.card-Appoiments {
+        background-color: rgb(245, 243, 243);
+}
+
+.card .nav.flex-column>li {
+        border: none !important;
+}
+
+.nav-appoint>nav-link {
+        display: block !;
+        padding-top: 1px !important;
+}
+
+.inforappoit p {
+        color: rgb(100, 99, 99);
+}
+
+.nameAppoit h6 {
+        color: rgb(26, 24, 24);
+}
+
+.nameAppoit a {
+        text-decoration: none
+}

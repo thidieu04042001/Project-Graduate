@@ -1,0 +1,52 @@
+.schedule-nav.nav-fill.a.native {
+        background-color: black;
+}
+
+.add-more button {
+        float: right;
+
+
+        /* border: 1px solid; */
+        background-color: #80dfff;
+}
+
+.nav-fill {
+        flex-wrap: wrap
+}
+
+.tab-pane {
+        margin-top: 10px !important;
+        margin-bottom: 10px !important;
+        margin-right: 10px;
+        margin-left: 10px;
+}
+
+.doc-times {
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+}
+
+.doc-slot-list {
+        background-color: #d9534f;
+        border: 1px solid #d43f3a;
+        border-radius: 4px;
+        color: #fff;
+        font-size: 14px;
+        margin: 10px 10px 0 0;
+        padding: 6px 15px;
+}
+
+.schedule-nav a {
+        padding: 7px 5px;
+        margin: 0px 5px;
+        font-weight: normal;
+}
+
+.doc-slot-list a {
+        color: #e48784;
+        display: inline-block;
+        margin-left: 5px;
+}
