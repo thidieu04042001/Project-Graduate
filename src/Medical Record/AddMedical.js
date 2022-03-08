@@ -1,6 +1,10 @@
 import React, { useState, useEffect } from "react";
+import Form from "react-validation/build/form";
+import Input from "react-validation/build/input";
+
 import "./medicalrecord.css";
-import db from "../firebase";
+// import db from "../firebase";
+import { db } from "../firebase";
 
 function AddMedical() {
   const [Name, setName] = useState("");
@@ -20,14 +24,17 @@ function AddMedical() {
       date: Date,
       age: Age,
     });
-
     setName("");
     setpatientid("");
     setDate("");
     setAdress("");
     setDisease("");
     setAge("");
+    alert("Thêm medical thành công");
+
+    // window.location.href = "http://localhost:3000/medicalrecord";
   };
+
   return (
     <div className="content-wrapper">
       <section className="content-header">
@@ -54,12 +61,12 @@ function AddMedical() {
           <div className="add_medicalRecord">
             <div className="container">
               <div className="row">
-                <form className="add_medical--record form">
+                <Form className="add_medical--record form">
                   <h2 className="title_addMD">Edit Medical Record</h2>
-                  <div className="form-row">
+                  <div className="form row">
                     <div className="form-group col-md-6 patient_id">
                       <label>Patient ID</label>
-                      <input
+                      <Input
                         type="text"
                         className="form-control"
                         id="patient_id"
@@ -70,7 +77,7 @@ function AddMedical() {
                     </div>
                     <div className="form-group col-md-6 name">
                       <label for="name">Name</label>
-                      <input
+                      <Input
                         type="name"
                         className="form-control"
                         id="name"
@@ -82,7 +89,7 @@ function AddMedical() {
                   </div>
                   <div className="form-group">
                     <label for="inputAddress">Address</label>
-                    <input
+                    <Input
                       type="text"
                       className="form-control"
                       id="inputAddress"
@@ -93,7 +100,7 @@ function AddMedical() {
                   </div>
                   <div className="form-group">
                     <label for="disease_name"> Disease Name</label>
-                    <input
+                    <Input
                       type="text"
                       className="form-control"
                       id="disease_name"
@@ -102,10 +109,10 @@ function AddMedical() {
                       onChange={(e) => setDisease(e.target.value)}
                     />
                   </div>
-                  <div className="form-row">
+                  <div className="form row">
                     <div className="form-group col-md-6 date">
                       <label>Date</label>
-                      <input
+                      <Input
                         type="date"
                         className="form-control"
                         id="date"
@@ -122,7 +129,7 @@ function AddMedical() {
                     </div>
                     <div className="form-group col-md-2 age">
                       <label for="age">Age</label>
-                      <input
+                      <Input
                         type="number"
                         className="form-control"
                         id="age"
@@ -133,16 +140,16 @@ function AddMedical() {
                   </div>
                   <div className="form-group col-md-2">
                     <label for="patient">Patient</label>
-                    <input type="file" id="img" name="img" accept="image" />
+                    <Input type="file" id="img" name="img" accept="image" />
                   </div>
                   <button
                     type="submit"
                     className="btn_add--medicalrecord"
                     onClick={submit}
                   >
-                    Edit
+                    ADD MEDICAL RECORD
                   </button>
-                </form>
+                </Form>
               </div>
             </div>
           </div>

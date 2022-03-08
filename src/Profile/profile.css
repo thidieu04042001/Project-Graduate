@@ -42,7 +42,7 @@
 }
 
 .btnbooking {
-        background-color: #20c0f3;
+        background-color: #20c0f3 !important;
         height: 50px;
         width: 200px;
 
